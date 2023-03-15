@@ -15,9 +15,9 @@ I show you how to use CSS GRID to create Responsive Image Gallery.
 
 ### Tablet
 
-![](/img/Tablet.jpg)
+![](/img/tablet.jpg)
 
 ### Mobile :iphone:
 
-![](/img/Mobile.jpg)
+![](/img/mobile.jpg)
 
