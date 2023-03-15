@@ -18,7 +18,7 @@ h1 {
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 150px;
+    grid-auto-rows: 200px;
     padding: 20px;
     grid-gap: 10px;
 }
@@ -28,3 +28,18 @@ h1 {
     height: 100%;
     object-fit: cover;
 }
+
+/* select images */
+.gallery__item:nth-child(4) {
+    grid-column-start: span 2;
+}
+
+.gallery__item:nth-child(5) {
+    grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(9) {
+    grid-column-start: span 2;
+}
+
+/* me quede en el min 12:52 */
